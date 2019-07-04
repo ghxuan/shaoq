@@ -1,0 +1,37 @@
+GET /wenshu HTTP/1.1
+Host: shaoq.com
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://shaoq.com/wenshu
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: cookie=""
+Connection: keep-alive
+
+
+GET /wenshu?wzwschallenge=V1pXU19DT05GSVJNX1BSRUZJWF9MQUJFTDI2NzgyODM= HTTP/1.1
+'Host': 'shaoq.com'
+'Upgrade-Insecure-Requests': '1'
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+'Referer': 'http://shaoq.com/wenshu'
+'Accept-Encoding': 'gzip, deflate'
+'Accept-Language': 'zh-CN,zh;q=0.9'
+'Cookie': 'cookie=7d79f163493daac528f5fbd62bc9dd4d'
+'Connection': 'keep-alive'
+
+
+GET /wenshu HTTP/1.1
+'Host': 'shaoq.com'
+'Upgrade-Insecure-Requests': '1'
+'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+'Referer': 'http://shaoq.com/wenshu'
+'Accept-Encoding': 'gzip, deflate'
+'Accept-Language': 'zh-CN,zh;q=0.9'
+'Cookie': 'cookie=9b470f127091a1cc9be7c39b34066804'
+'If-None-Match': '"eb97305051d2101fb899b11eb2b9c8716d185d6b"'
+'Connection': 'keep-alive'
+
