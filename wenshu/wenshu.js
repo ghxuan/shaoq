@@ -446,7 +446,8 @@ if (typeof encode_version !== _0x213d('0x0', 'XkR5') && encode_version === _0x21
         } else {
             if (_0x358b35[_0x213d('0x3c', 'Z@gv')](_0x213d('0x3d', '#eYs'), 'eOa')) {
                 window[_0x213d('0x3e', 'NS17')] = _0xcd071f;
-                console.log(_0x213d('0x3e', 'NS17'));console.log(_0xcd071f);
+                console.log(_0x213d('0x3e', 'NS17'));
+                console.log(_0xcd071f);
             } else {
                 hash += wzwsquestion[_0x213d('0x3f', 'WXxL')](i);
             }
