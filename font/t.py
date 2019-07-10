@@ -93,5 +93,5 @@ class Decoder(object):
 
 if __name__ == '__main__':
     s = '''你好，青划长务, 8175-13-79'''
-    d = Decoder('/', 'shaoq.woff')
+    d = Decoder('traineddata/', 'shaoq.woff')
     print(''.join(map(d.decode, s)))
