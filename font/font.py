@@ -36,7 +36,7 @@ def get_need_k():
         'unif133': '向', 'unie545': '作', 'unie888': '局', 'unie6ef': '觉', 'unieebc': '停', 'unie930': '银', 'unif4a4': '刚',
         'unif2a0': '给', 'uniec67': '道', 'unie0ec': '做', 'unie643': '感', 'unif1bf': '信', 'unief81': '造', 'unie92d': '美',
         'unie70e': '境'}
-    print(''.join(font_to_value[i] if 'uni' in i else i for i in
+    print(''.join(font_to_value.get(i, ' ') if 'uni' in i else i for i in
                   re.findall(r'<e.*?>(.*?)</e>', info)))
 
 
