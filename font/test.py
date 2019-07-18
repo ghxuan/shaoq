@@ -1,9 +1,6 @@
 import re
 
 
-# from fontTools.ttLib import TTFont
-
-
 def get_need_k():
     with open('font.html', 'r+', encoding='utf-8') as f:
         info = f.read().replace('', '')
