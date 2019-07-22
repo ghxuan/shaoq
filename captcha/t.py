@@ -25,6 +25,7 @@ def gen(batch_size=32):
     while True:
         for i in range(batch_size):
             random_str = ''.join([random.choice(characters) for j in range(4)])
+            print(random_str)
             X[i] = generator.generate_image(random_str)
             for j, ch in enumerate(random_str):
                 y[j][i, :] = 0
@@ -38,6 +39,7 @@ def decode(y):
 
 
 X, y = next(gen(1))
-print(X, y)
+# print(X, y)
+print('real: %s\npred:%s' % (decode(y), 1))
 plt.title('real: %s\npred:%s' % (decode(y), 1))
 plt.imshow(X[0], cmap='gray')
